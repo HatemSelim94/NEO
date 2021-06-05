@@ -16,9 +16,9 @@ import datetime
 import pathlib
 import unittest
 
-from database import NEODatabase
-from extract import load_neos, load_approaches
-from filters import create_filters
+from neo import NEODatabase
+from neo import load_neos, load_approaches
+from neo import create_filters
 
 
 TESTS_ROOT = (pathlib.Path(__file__).parent).resolve()

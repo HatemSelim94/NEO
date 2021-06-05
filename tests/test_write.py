@@ -25,8 +25,8 @@ import unittest
 import unittest.mock
 
 
-from extract import load_neos, load_approaches
-from database import NEODatabase
+from neo import load_neos, load_approaches
+from neo import NEODatabase
 from write import write_to_csv, write_to_json
 
 

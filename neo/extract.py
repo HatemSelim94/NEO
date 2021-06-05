@@ -14,7 +14,7 @@ to build an `NEODatabase`.
 import csv
 import json
 
-from models import NearEarthObject, CloseApproach
+from .models import NearEarthObject, CloseApproach
 
 
 def load_neos(neo_csv_path):
